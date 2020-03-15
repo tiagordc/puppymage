@@ -8,16 +8,16 @@ env\scripts\activate\
 ### TODO
 
  * Proper logging
- * Set description on the jpeg
+ * Set description on jpeg attributes
  * Exclude patterns file
  * Export results to file and import them on load
  * DSL with parsimonious (PEG):
 
-    go "url"
-    wait "selector"
-    click "selector"
-    upload "selector"
-    select "selector" -> while
-        image "selector"
-        press "key"
+    go "url"\
+    wait "selector"\
+    click "selector"\
+    upload "selector"\
+    select "selector" -> while\
+        image "selector"\
+        press "key"\
         sleep 1 10
